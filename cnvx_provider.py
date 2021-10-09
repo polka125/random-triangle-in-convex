@@ -10,7 +10,12 @@ def polygon(n):
     
 
 
+def get_hearth():
+    xs = [0, 1, 1, 0.5, 0, -0.5, -1, -1]
+    ys = [-1, 0, 0.5, 1, 0.5, 1, 0.5, 0]
+    return xs, ys
+
 def get_convex():
     """возвращает два массива xs, ys, в которых лежат координаты выпуклого множества"""
-    return polygon(14)
+    return polygon(140)
     
